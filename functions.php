@@ -24,6 +24,7 @@ sidebars, comments, ect.
 	- adding custom fields to user profiles
 */
 require_once('library/bones.php'); // if you remove this, bones will break
+include('library/foundation4-topbar-walker.php');
 /*
 2. library/custom-post-type.php
 	- an example custom post type
@@ -154,9 +155,14 @@ function bones_comments($comment, $args, $depth) {
 // Search Form
 function bones_wpsearch($form) {
 	$form = '<form role="search" method="get" id="searchform" action="' . home_url( '/' ) . '" >
-	<label class="screen-reader-text" for="s">' . __('Search for:', 'bonestheme') . '</label>
-	<input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="'.esc_attr__('Search the Site...','bonestheme').'" />
-	<input type="submit" id="searchsubmit" value="'. esc_attr__('Search') .'" />
+	<div class="row collapse">
+	<div class="small-10 columns">
+		<label class="screen-reader-text hidden" for="s">' . __('Search for:', 'bonestheme') . '</label>
+		<input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="'.esc_attr__('Search the Site...','bonestheme').'" />
+	</div>
+	<div class="small-2 columns">
+		<input type="submit" id="searchsubmit" class="button prefix" value="'. esc_attr__('Search') .'" />
+	</div>
 	</form>';
 	return $form;
 } // don't remove this bracket!

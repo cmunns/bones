@@ -247,7 +247,7 @@ SIDEBARS & ASIDES
 	/* search widget */
 	#searchform {}
 	.widget_search {}
-	.screen-reader-text {}
+	.screen-reader-text {visibility:hidden;position:absolute;}
 
 	/* text widget */
 	.textwidget {}

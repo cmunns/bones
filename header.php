@@ -45,19 +45,30 @@
 
 			<header class="header" role="banner">
 
-				<div id="inner-header" class="wrap clearfix">
+				<div id="inner-header" class="wrap row">
+					<div class="small-12 columns">
 
-					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+						<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
+						<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
 
-					<!-- if you'd like to use the site description you can un-comment it below -->
-					<?php // bloginfo('description'); ?>
+						<!-- if you'd like to use the site description you can un-comment it below -->
+						<?php // bloginfo('description'); ?>
 
 
-					<nav role="navigation">
-						<?php bones_main_nav(); ?>
-					</nav>
+						<nav role="navigation" class="top-bar contain-to-grid">
+							<ul class="title-area">
+					            <li class="name"></li>
+								<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+								<li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
+							</ul>
+							<section class="top-bar-section">
+								<?php foundation_top_bar_l(); ?>
 
+								<?php foundation_top_bar_r(); ?>
+							</section>
+						</nav>
+						
+					</div>
 				</div> <!-- end #inner-header -->
 
 			</header> <!-- end header -->
