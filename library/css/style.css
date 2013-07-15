@@ -1775,7 +1775,7 @@ blockquote p {
 
   .show-for-print {
     display: inherit !important; } }
-button, .button {
+button, .button, .commentlist .comment-reply-link {
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
@@ -1795,63 +1795,63 @@ button, .button {
   background-color: #2ba6cb;
   border-color: #2284a1;
   color: white; }
-  button:hover, button:focus, .button:hover, .button:focus {
+  button:hover, button:focus, .button:hover, .commentlist .comment-reply-link:hover, .commentlist .comment-reply-link:focus, .button:focus, .commentlist .comment-reply-link:focus {
     background-color: #2284a1; }
-  button:hover, button:focus, .button:hover, .button:focus {
+  button:hover, button:focus, .button:hover, .commentlist .comment-reply-link:hover, .commentlist .comment-reply-link:focus, .button:focus, .commentlist .comment-reply-link:focus {
     color: white; }
-  button.secondary, .button.secondary {
+  button.secondary, .button.secondary, .commentlist .secondary.comment-reply-link {
     background-color: #e9e9e9;
     border-color: #d0d0d0;
     color: #333333; }
-    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .commentlist .secondary.comment-reply-link:hover, .commentlist .secondary.comment-reply-link:focus, .button.secondary:focus, .commentlist .secondary.comment-reply-link:focus {
       background-color: #d0d0d0; }
-    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+    button.secondary:hover, button.secondary:focus, .button.secondary:hover, .commentlist .secondary.comment-reply-link:hover, .commentlist .secondary.comment-reply-link:focus, .button.secondary:focus, .commentlist .secondary.comment-reply-link:focus {
       color: #333333; }
-  button.success, .button.success {
+  button.success, .button.success, .commentlist .success.comment-reply-link {
     background-color: #5da423;
     border-color: #457a1a;
     color: white; }
-    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+    button.success:hover, button.success:focus, .button.success:hover, .commentlist .success.comment-reply-link:hover, .commentlist .success.comment-reply-link:focus, .button.success:focus, .commentlist .success.comment-reply-link:focus {
       background-color: #457a1a; }
-    button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+    button.success:hover, button.success:focus, .button.success:hover, .commentlist .success.comment-reply-link:hover, .commentlist .success.comment-reply-link:focus, .button.success:focus, .commentlist .success.comment-reply-link:focus {
       color: white; }
-  button.alert, .button.alert {
+  button.alert, .button.alert, .commentlist .alert.comment-reply-link {
     background-color: #c60f13;
     border-color: #970b0e;
     color: white; }
-    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+    button.alert:hover, button.alert:focus, .button.alert:hover, .commentlist .alert.comment-reply-link:hover, .commentlist .alert.comment-reply-link:focus, .button.alert:focus, .commentlist .alert.comment-reply-link:focus {
       background-color: #970b0e; }
-    button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+    button.alert:hover, button.alert:focus, .button.alert:hover, .commentlist .alert.comment-reply-link:hover, .commentlist .alert.comment-reply-link:focus, .button.alert:focus, .commentlist .alert.comment-reply-link:focus {
       color: white; }
-  button.large, .button.large {
+  button.large, .button.large, .commentlist .large.comment-reply-link {
     padding-top: 1em;
     padding-right: 2em;
     padding-bottom: 1.0625em;
     padding-left: 2em;
     font-size: 1.25em; }
-  button.small, .button.small {
+  button.small, .button.small, .commentlist .small.comment-reply-link {
     padding-top: 0.5625em;
     padding-right: 1.125em;
     padding-bottom: 0.625em;
     padding-left: 1.125em;
     font-size: 0.8125em; }
-  button.tiny, .button.tiny {
+  button.tiny, .button.tiny, .commentlist .tiny.comment-reply-link {
     padding-top: 0.4375em;
     padding-right: 0.875em;
     padding-bottom: 0.5em;
     padding-left: 0.875em;
     font-size: 0.6875em; }
-  button.expand, .button.expand {
+  button.expand, .button.expand, .commentlist .expand.comment-reply-link {
     padding-right: 0px;
     padding-left: 0px;
     width: 100%; }
-  button.left-align, .button.left-align {
+  button.left-align, .button.left-align, .commentlist .left-align.comment-reply-link {
     text-align: left;
     text-indent: 0.75em; }
-  button.right-align, .button.right-align {
+  button.right-align, .button.right-align, .commentlist .right-align.comment-reply-link {
     text-align: right;
     padding-right: 0.75em; }
-  button.disabled, button[disabled], .button.disabled, .button[disabled] {
+  button.disabled, button[disabled], .button.disabled, .commentlist .disabled.comment-reply-link, .button[disabled], .commentlist [disabled].comment-reply-link {
     background-color: #2ba6cb;
     border-color: #2284a1;
     color: white;
@@ -1859,13 +1859,13 @@ button, .button {
     opacity: 0.6;
     -webkit-box-shadow: none;
     box-shadow: none; }
-    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .commentlist .disabled.comment-reply-link:hover, .commentlist .disabled.comment-reply-link:focus, .button.disabled:focus, .commentlist .disabled.comment-reply-link:focus, .button[disabled]:hover, .commentlist [disabled].comment-reply-link:hover, .commentlist [disabled].comment-reply-link:focus, .button[disabled]:focus, .commentlist [disabled].comment-reply-link:focus {
       background-color: #2284a1; }
-    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .commentlist .disabled.comment-reply-link:hover, .commentlist .disabled.comment-reply-link:focus, .button.disabled:focus, .commentlist .disabled.comment-reply-link:focus, .button[disabled]:hover, .commentlist [disabled].comment-reply-link:hover, .commentlist [disabled].comment-reply-link:focus, .button[disabled]:focus, .commentlist [disabled].comment-reply-link:focus {
       color: white; }
-    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+    button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .commentlist .disabled.comment-reply-link:hover, .commentlist .disabled.comment-reply-link:focus, .button.disabled:focus, .commentlist .disabled.comment-reply-link:focus, .button[disabled]:hover, .commentlist [disabled].comment-reply-link:hover, .commentlist [disabled].comment-reply-link:focus, .button[disabled]:focus, .commentlist [disabled].comment-reply-link:focus {
       background-color: #2ba6cb; }
-    button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
+    button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .commentlist .disabled.secondary.comment-reply-link, .button[disabled].secondary, .commentlist [disabled].secondary.comment-reply-link {
       background-color: #e9e9e9;
       border-color: #d0d0d0;
       color: #333333;
@@ -1873,13 +1873,13 @@ button, .button {
       opacity: 0.6;
       -webkit-box-shadow: none;
       box-shadow: none; }
-      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .commentlist .disabled.secondary.comment-reply-link:hover, .commentlist .disabled.secondary.comment-reply-link:focus, .button.disabled.secondary:focus, .commentlist .disabled.secondary.comment-reply-link:focus, .button[disabled].secondary:hover, .commentlist [disabled].secondary.comment-reply-link:hover, .commentlist [disabled].secondary.comment-reply-link:focus, .button[disabled].secondary:focus, .commentlist [disabled].secondary.comment-reply-link:focus {
         background-color: #d0d0d0; }
-      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .commentlist .disabled.secondary.comment-reply-link:hover, .commentlist .disabled.secondary.comment-reply-link:focus, .button.disabled.secondary:focus, .commentlist .disabled.secondary.comment-reply-link:focus, .button[disabled].secondary:hover, .commentlist [disabled].secondary.comment-reply-link:hover, .commentlist [disabled].secondary.comment-reply-link:focus, .button[disabled].secondary:focus, .commentlist [disabled].secondary.comment-reply-link:focus {
         color: #333333; }
-      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+      button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .commentlist .disabled.secondary.comment-reply-link:hover, .commentlist .disabled.secondary.comment-reply-link:focus, .button.disabled.secondary:focus, .commentlist .disabled.secondary.comment-reply-link:focus, .button[disabled].secondary:hover, .commentlist [disabled].secondary.comment-reply-link:hover, .commentlist [disabled].secondary.comment-reply-link:focus, .button[disabled].secondary:focus, .commentlist [disabled].secondary.comment-reply-link:focus {
         background-color: #e9e9e9; }
-    button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
+    button.disabled.success, button[disabled].success, .button.disabled.success, .commentlist .disabled.success.comment-reply-link, .button[disabled].success, .commentlist [disabled].success.comment-reply-link {
       background-color: #5da423;
       border-color: #457a1a;
       color: white;
@@ -1887,13 +1887,13 @@ button, .button {
       opacity: 0.6;
       -webkit-box-shadow: none;
       box-shadow: none; }
-      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .commentlist .disabled.success.comment-reply-link:hover, .commentlist .disabled.success.comment-reply-link:focus, .button.disabled.success:focus, .commentlist .disabled.success.comment-reply-link:focus, .button[disabled].success:hover, .commentlist [disabled].success.comment-reply-link:hover, .commentlist [disabled].success.comment-reply-link:focus, .button[disabled].success:focus, .commentlist [disabled].success.comment-reply-link:focus {
         background-color: #457a1a; }
-      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .commentlist .disabled.success.comment-reply-link:hover, .commentlist .disabled.success.comment-reply-link:focus, .button.disabled.success:focus, .commentlist .disabled.success.comment-reply-link:focus, .button[disabled].success:hover, .commentlist [disabled].success.comment-reply-link:hover, .commentlist [disabled].success.comment-reply-link:focus, .button[disabled].success:focus, .commentlist [disabled].success.comment-reply-link:focus {
         color: white; }
-      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+      button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .commentlist .disabled.success.comment-reply-link:hover, .commentlist .disabled.success.comment-reply-link:focus, .button.disabled.success:focus, .commentlist .disabled.success.comment-reply-link:focus, .button[disabled].success:hover, .commentlist [disabled].success.comment-reply-link:hover, .commentlist [disabled].success.comment-reply-link:focus, .button[disabled].success:focus, .commentlist [disabled].success.comment-reply-link:focus {
         background-color: #5da423; }
-    button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
+    button.disabled.alert, button[disabled].alert, .button.disabled.alert, .commentlist .disabled.alert.comment-reply-link, .button[disabled].alert, .commentlist [disabled].alert.comment-reply-link {
       background-color: #c60f13;
       border-color: #970b0e;
       color: white;
@@ -1901,48 +1901,48 @@ button, .button {
       opacity: 0.6;
       -webkit-box-shadow: none;
       box-shadow: none; }
-      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .commentlist .disabled.alert.comment-reply-link:hover, .commentlist .disabled.alert.comment-reply-link:focus, .button.disabled.alert:focus, .commentlist .disabled.alert.comment-reply-link:focus, .button[disabled].alert:hover, .commentlist [disabled].alert.comment-reply-link:hover, .commentlist [disabled].alert.comment-reply-link:focus, .button[disabled].alert:focus, .commentlist [disabled].alert.comment-reply-link:focus {
         background-color: #970b0e; }
-      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .commentlist .disabled.alert.comment-reply-link:hover, .commentlist .disabled.alert.comment-reply-link:focus, .button.disabled.alert:focus, .commentlist .disabled.alert.comment-reply-link:focus, .button[disabled].alert:hover, .commentlist [disabled].alert.comment-reply-link:hover, .commentlist [disabled].alert.comment-reply-link:focus, .button[disabled].alert:focus, .commentlist [disabled].alert.comment-reply-link:focus {
         color: white; }
-      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+      button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .commentlist .disabled.alert.comment-reply-link:hover, .commentlist .disabled.alert.comment-reply-link:focus, .button.disabled.alert:focus, .commentlist .disabled.alert.comment-reply-link:focus, .button[disabled].alert:hover, .commentlist [disabled].alert.comment-reply-link:hover, .commentlist [disabled].alert.comment-reply-link:focus, .button[disabled].alert:focus, .commentlist [disabled].alert.comment-reply-link:focus {
         background-color: #c60f13; }
 
-button, .button {
+button, .button, .commentlist .comment-reply-link {
   padding-top: 0.8125em;
   padding-bottom: 0.75em;
   -webkit-appearance: none; }
-  button.tiny, .button.tiny {
+  button.tiny, .button.tiny, .commentlist .tiny.comment-reply-link {
     padding-top: 0.5em;
     padding-bottom: 0.4375em;
     -webkit-appearance: none; }
-  button.small, .button.small {
+  button.small, .button.small, .commentlist .small.comment-reply-link {
     padding-top: 0.625em;
     padding-bottom: 0.5625em;
     -webkit-appearance: none; }
-  button.large, .button.large {
+  button.large, .button.large, .commentlist .large.comment-reply-link {
     padding-top: 1.03125em;
     padding-bottom: 1.03125em;
     -webkit-appearance: none; }
 
 @media only screen {
-  button, .button {
+  button, .button, .commentlist .comment-reply-link {
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out; }
-    button:active, .button:active {
+    button:active, .button:active, .commentlist .comment-reply-link:active {
       -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }
-    button.radius, .button.radius {
+    button.radius, .button.radius, .commentlist .radius.comment-reply-link {
       -webkit-border-radius: 3px;
       border-radius: 3px; }
-    button.round, .button.round {
+    button.round, .button.round, .commentlist .round.comment-reply-link {
       -webkit-border-radius: 1000px;
       border-radius: 1000px; } }
 @media only screen and (min-width: 768px) {
-  button, .button {
+  button, .button, .commentlist .comment-reply-link {
     display: inline-block; } }
 /* Standard Forms */
 form {
@@ -1998,7 +1998,7 @@ label {
   line-height: 2.3125em; }
 
 /* Adjust padding, alignment and radius if pre/post element is a button */
-.postfix.button {
+.postfix.button, .commentlist .postfix.comment-reply-link {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -2006,7 +2006,7 @@ label {
   text-align: center;
   line-height: 2.125em; }
 
-.prefix.button {
+.prefix.button, .commentlist .prefix.comment-reply-link {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
@@ -2014,7 +2014,7 @@ label {
   text-align: center;
   line-height: 2.125em; }
 
-.prefix.button.radius {
+.prefix.button.radius, .commentlist .prefix.radius.comment-reply-link {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 3px;
@@ -2024,7 +2024,7 @@ label {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px; }
 
-.postfix.button.radius {
+.postfix.button.radius, .commentlist .postfix.radius.comment-reply-link {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 3px;
@@ -2034,7 +2034,7 @@ label {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px; }
 
-.prefix.button.round {
+.prefix.button.round, .commentlist .prefix.round.comment-reply-link {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 1000px;
@@ -2044,7 +2044,7 @@ label {
   border-bottom-left-radius: 1000px;
   border-top-left-radius: 1000px; }
 
-.postfix.button.round {
+.postfix.button.round, .commentlist .postfix.round.comment-reply-link {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 1000px;
@@ -2452,28 +2452,28 @@ form.custom {
     float: left; }
     .button-group > *:first-child {
       margin-left: 0; }
-  .button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button {
+  .button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button, .commentlist .button-group.radius > *:first-child > .comment-reply-link {
     -moz-border-radius-bottomleft: 3px;
     -moz-border-radius-topleft: 3px;
     -webkit-border-bottom-left-radius: 3px;
     -webkit-border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px; }
-  .button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button {
+  .button-group.radius > *:last-child, .button-group.radius > *:last-child > a, .button-group.radius > *:last-child > button, .button-group.radius > *:last-child > .button, .commentlist .button-group.radius > *:last-child > .comment-reply-link {
     -moz-border-radius-topright: 3px;
     -moz-border-radius-bottomright: 3px;
     -webkit-border-top-right-radius: 3px;
     -webkit-border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px; }
-  .button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button {
+  .button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button, .commentlist .button-group.round > *:first-child > .comment-reply-link {
     -moz-border-radius-bottomleft: 1000px;
     -moz-border-radius-topleft: 1000px;
     -webkit-border-bottom-left-radius: 1000px;
     -webkit-border-top-left-radius: 1000px;
     border-bottom-left-radius: 1000px;
     border-top-left-radius: 1000px; }
-  .button-group.round > *:last-child, .button-group.round > *:last-child > a, .button-group.round > *:last-child > button, .button-group.round > *:last-child > .button {
+  .button-group.round > *:last-child, .button-group.round > *:last-child > a, .button-group.round > *:last-child > button, .button-group.round > *:last-child > .button, .commentlist .button-group.round > *:last-child > .comment-reply-link {
     -moz-border-radius-topright: 1000px;
     -moz-border-radius-bottomright: 1000px;
     -webkit-border-top-right-radius: 1000px;
@@ -2482,31 +2482,31 @@ form.custom {
     border-bottom-right-radius: 1000px; }
   .button-group.even-2 li {
     width: 50%; }
-    .button-group.even-2 li button, .button-group.even-2 li .button {
+    .button-group.even-2 li button, .button-group.even-2 li .button, .button-group.even-2 li .commentlist .comment-reply-link, .commentlist .button-group.even-2 li .comment-reply-link {
       width: 100%; }
   .button-group.even-3 li {
     width: 33.33333%; }
-    .button-group.even-3 li button, .button-group.even-3 li .button {
+    .button-group.even-3 li button, .button-group.even-3 li .button, .button-group.even-3 li .commentlist .comment-reply-link, .commentlist .button-group.even-3 li .comment-reply-link {
       width: 100%; }
   .button-group.even-4 li {
     width: 25%; }
-    .button-group.even-4 li button, .button-group.even-4 li .button {
+    .button-group.even-4 li button, .button-group.even-4 li .button, .button-group.even-4 li .commentlist .comment-reply-link, .commentlist .button-group.even-4 li .comment-reply-link {
       width: 100%; }
   .button-group.even-5 li {
     width: 20%; }
-    .button-group.even-5 li button, .button-group.even-5 li .button {
+    .button-group.even-5 li button, .button-group.even-5 li .button, .button-group.even-5 li .commentlist .comment-reply-link, .commentlist .button-group.even-5 li .comment-reply-link {
       width: 100%; }
   .button-group.even-6 li {
     width: 16.66667%; }
-    .button-group.even-6 li button, .button-group.even-6 li .button {
+    .button-group.even-6 li button, .button-group.even-6 li .button, .button-group.even-6 li .commentlist .comment-reply-link, .commentlist .button-group.even-6 li .comment-reply-link {
       width: 100%; }
   .button-group.even-7 li {
     width: 14.28571%; }
-    .button-group.even-7 li button, .button-group.even-7 li .button {
+    .button-group.even-7 li button, .button-group.even-7 li .button, .button-group.even-7 li .commentlist .comment-reply-link, .commentlist .button-group.even-7 li .comment-reply-link {
       width: 100%; }
   .button-group.even-8 li {
     width: 12.5%; }
-    .button-group.even-8 li button, .button-group.even-8 li .button {
+    .button-group.even-8 li button, .button-group.even-8 li .button, .button-group.even-8 li .commentlist .comment-reply-link, .commentlist .button-group.even-8 li .comment-reply-link {
       width: 100%; }
 
 .button-bar {
@@ -2523,10 +2523,10 @@ form.custom {
       overflow: hidden; }
 
 /* Dropdown Button */
-.dropdown.button {
+.dropdown.button, .commentlist .dropdown.comment-reply-link {
   position: relative;
   padding-right: 3.1875em; }
-  .dropdown.button:before {
+  .dropdown.button:before, .commentlist .dropdown.comment-reply-link:before {
     position: absolute;
     content: "";
     width: 0;
@@ -2535,51 +2535,51 @@ form.custom {
     border-style: solid;
     border-color: white transparent transparent transparent;
     top: 50%; }
-  .dropdown.button:before {
+  .dropdown.button:before, .commentlist .dropdown.comment-reply-link:before {
     border-width: 0.5625em;
     right: 1.5em;
     margin-top: -0.25em; }
-  .dropdown.button:before {
+  .dropdown.button:before, .commentlist .dropdown.comment-reply-link:before {
     border-color: white transparent transparent transparent; }
-  .dropdown.button.tiny {
+  .dropdown.button.tiny, .commentlist .dropdown.tiny.comment-reply-link {
     padding-right: 2.1875em; }
-    .dropdown.button.tiny:before {
+    .dropdown.button.tiny:before, .commentlist .dropdown.tiny.comment-reply-link:before {
       border-width: 0.4375em;
       right: 0.875em;
       margin-top: -0.15625em; }
-    .dropdown.button.tiny:before {
+    .dropdown.button.tiny:before, .commentlist .dropdown.tiny.comment-reply-link:before {
       border-color: white transparent transparent transparent; }
-  .dropdown.button.small {
+  .dropdown.button.small, .commentlist .dropdown.small.comment-reply-link {
     padding-right: 2.8125em; }
-    .dropdown.button.small:before {
+    .dropdown.button.small:before, .commentlist .dropdown.small.comment-reply-link:before {
       border-width: 0.5625em;
       right: 1.125em;
       margin-top: -0.21875em; }
-    .dropdown.button.small:before {
+    .dropdown.button.small:before, .commentlist .dropdown.small.comment-reply-link:before {
       border-color: white transparent transparent transparent; }
-  .dropdown.button.large {
+  .dropdown.button.large, .commentlist .dropdown.large.comment-reply-link {
     padding-right: 4em; }
-    .dropdown.button.large:before {
+    .dropdown.button.large:before, .commentlist .dropdown.large.comment-reply-link:before {
       border-width: 0.625em;
       right: 1.75em;
       margin-top: -0.3125em; }
-    .dropdown.button.large:before {
+    .dropdown.button.large:before, .commentlist .dropdown.large.comment-reply-link:before {
       border-color: white transparent transparent transparent; }
-  .dropdown.button.secondary:before {
+  .dropdown.button.secondary:before, .commentlist .dropdown.secondary.comment-reply-link:before {
     border-color: #333333 transparent transparent transparent; }
 
 /* Split Buttons */
-.split.button {
+.split.button, .commentlist .split.comment-reply-link {
   position: relative;
   padding-right: 4.8em; }
-  .split.button span {
+  .split.button span, .commentlist .split.comment-reply-link span {
     display: block;
     height: 100%;
     position: absolute;
     right: 0;
     top: 0;
     border-left: solid 1px; }
-    .split.button span:before {
+    .split.button span:before, .commentlist .split.comment-reply-link span:before {
       position: absolute;
       content: "";
       width: 0;
@@ -2587,66 +2587,66 @@ form.custom {
       display: block;
       border-style: inset;
       left: 50%; }
-    .split.button span:active {
+    .split.button span:active, .commentlist .split.comment-reply-link span:active {
       background-color: rgba(0, 0, 0, 0.1); }
-  .split.button span {
+  .split.button span, .commentlist .split.comment-reply-link span {
     border-left-color: #1e728c; }
-  .split.button span {
+  .split.button span, .commentlist .split.comment-reply-link span {
     width: 3em; }
-    .split.button span:before {
+    .split.button span:before, .commentlist .split.comment-reply-link span:before {
       border-top-style: solid;
       border-width: 0.5625em;
       top: 1.125em;
       margin-left: -0.5625em; }
-  .split.button span:before {
+  .split.button span:before, .commentlist .split.comment-reply-link span:before {
     border-color: white transparent transparent transparent; }
-  .split.button.secondary span {
+  .split.button.secondary span, .commentlist .split.secondary.comment-reply-link span {
     border-left-color: #c3c3c3; }
-  .split.button.secondary span:before {
+  .split.button.secondary span:before, .commentlist .split.secondary.comment-reply-link span:before {
     border-color: white transparent transparent transparent; }
-  .split.button.alert span {
+  .split.button.alert span, .commentlist .split.alert.comment-reply-link span {
     border-left-color: #7f0a0c; }
-  .split.button.success span {
+  .split.button.success span, .commentlist .split.success.comment-reply-link span {
     border-left-color: #396516; }
-  .split.button.tiny {
+  .split.button.tiny, .commentlist .split.tiny.comment-reply-link {
     padding-right: 3.9375em; }
-    .split.button.tiny span {
+    .split.button.tiny span, .commentlist .split.tiny.comment-reply-link span {
       width: 2.84375em; }
-      .split.button.tiny span:before {
+      .split.button.tiny span:before, .commentlist .split.tiny.comment-reply-link span:before {
         border-top-style: solid;
         border-width: 0.4375em;
         top: 0.875em;
         margin-left: -0.3125em; }
-  .split.button.small {
+  .split.button.small, .commentlist .split.small.comment-reply-link {
     padding-right: 3.9375em; }
-    .split.button.small span {
+    .split.button.small span, .commentlist .split.small.comment-reply-link span {
       width: 2.8125em; }
-      .split.button.small span:before {
+      .split.button.small span:before, .commentlist .split.small.comment-reply-link span:before {
         border-top-style: solid;
         border-width: 0.5625em;
         top: 0.84375em;
         margin-left: -0.5625em; }
-  .split.button.large {
+  .split.button.large, .commentlist .split.large.comment-reply-link {
     padding-right: 6em; }
-    .split.button.large span {
+    .split.button.large span, .commentlist .split.large.comment-reply-link span {
       width: 3.75em; }
-      .split.button.large span:before {
+      .split.button.large span:before, .commentlist .split.large.comment-reply-link span:before {
         border-top-style: solid;
         border-width: 0.625em;
         top: 1.3125em;
         margin-left: -0.5625em; }
-  .split.button.expand {
+  .split.button.expand, .commentlist .split.expand.comment-reply-link {
     padding-left: 2em; }
-  .split.button.secondary span:before {
+  .split.button.secondary span:before, .commentlist .split.secondary.comment-reply-link span:before {
     border-color: #333333 transparent transparent transparent; }
-  .split.button.radius span {
+  .split.button.radius span, .commentlist .split.radius.comment-reply-link span {
     -moz-border-radius-topright: 3px;
     -moz-border-radius-bottomright: 3px;
     -webkit-border-top-right-radius: 3px;
     -webkit-border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px; }
-  .split.button.round span {
+  .split.button.round span, .commentlist .split.round.comment-reply-link span {
     -moz-border-radius-topright: 1000px;
     -moz-border-radius-bottomright: 1000px;
     -webkit-border-top-right-radius: 1000px;
@@ -3109,7 +3109,7 @@ form.custom {
     margin-bottom: 0; }
   .top-bar input {
     height: 2.45em; }
-  .top-bar .button {
+  .top-bar .button, .top-bar .commentlist .comment-reply-link, .commentlist .top-bar .comment-reply-link {
     padding-top: .5em;
     padding-bottom: .5em;
     margin-bottom: 0; }
@@ -3205,22 +3205,22 @@ form.custom {
     font-size: 0.8125em;
     font-weight: bold;
     background: #222222; }
-    .top-bar-section ul li > a.button {
+    .top-bar-section ul li > a.button, .top-bar-section ul .commentlist li > a.comment-reply-link, .commentlist .top-bar-section ul li > a.comment-reply-link {
       background: #2ba6cb;
       font-size: 0.8125em; }
-      .top-bar-section ul li > a.button.hover {
+      .top-bar-section ul li > a.button.hover, .top-bar-section ul .commentlist li > a.hover.comment-reply-link, .commentlist .top-bar-section ul li > a.hover.comment-reply-link {
         background: #2284a1; }
-    .top-bar-section ul li > a.button.secondary {
+    .top-bar-section ul li > a.button.secondary, .top-bar-section ul .commentlist li > a.secondary.comment-reply-link, .commentlist .top-bar-section ul li > a.secondary.comment-reply-link {
       background: #e9e9e9; }
-      .top-bar-section ul li > a.button.secondary.hover {
+      .top-bar-section ul li > a.button.secondary.hover, .top-bar-section ul .commentlist li > a.secondary.hover.comment-reply-link, .commentlist .top-bar-section ul li > a.secondary.hover.comment-reply-link {
         background: #d0d0d0; }
-    .top-bar-section ul li > a.button.success {
+    .top-bar-section ul li > a.button.success, .top-bar-section ul .commentlist li > a.success.comment-reply-link, .commentlist .top-bar-section ul li > a.success.comment-reply-link {
       background: #5da423; }
-      .top-bar-section ul li > a.button.success.hover {
+      .top-bar-section ul li > a.button.success.hover, .top-bar-section ul .commentlist li > a.success.hover.comment-reply-link, .commentlist .top-bar-section ul li > a.success.hover.comment-reply-link {
         background: #457a1a; }
-    .top-bar-section ul li > a.button.alert {
+    .top-bar-section ul li > a.button.alert, .top-bar-section ul .commentlist li > a.alert.comment-reply-link, .commentlist .top-bar-section ul li > a.alert.comment-reply-link {
       background: #c60f13; }
-      .top-bar-section ul li > a.button.alert.hover {
+      .top-bar-section ul li > a.button.alert.hover, .top-bar-section ul .commentlist li > a.alert.hover.comment-reply-link, .commentlist .top-bar-section ul li > a.alert.hover.comment-reply-link {
         background: #970b0e; }
   .top-bar-section ul li.hover > a {
     background: #090909;
@@ -3299,7 +3299,9 @@ form.custom {
     .top-bar .name h1 a {
       width: auto; }
     .top-bar input,
-    .top-bar .button {
+    .top-bar .button,
+    .top-bar .commentlist .comment-reply-link,
+    .commentlist .top-bar .comment-reply-link {
       line-height: 2em;
       font-size: 0.875em;
       height: 2em;
@@ -3703,7 +3705,7 @@ form.custom {
 .joyride-content-wrapper {
   width: 100%;
   padding: 1.125em 1.25em 1.5em; }
-  .joyride-content-wrapper .button {
+  .joyride-content-wrapper .button, .joyride-content-wrapper .commentlist .comment-reply-link, .commentlist .joyride-content-wrapper .comment-reply-link {
     margin-bottom: 0 !important; }
 
 /* Add a little css triangle pip, older browser just miss out on the fanciness of it */
@@ -5108,18 +5110,6 @@ COMMENT STYLES
       margin: 0.7335em 0 1.5em;
       font-size: 1em;
       line-height: 1.5em; }
-  .commentlist .comment-reply-link {
-    text-decoration: none;
-    float: right;
-    background: #4598bb;
-    padding: 3px 5px;
-    color: #fff;
-    opacity: 0.65;
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 0.9em; }
-    .commentlist .comment-reply-link:hover, .commentlist .comment-reply-link:focus {
-      opacity: 1; }
 
 /* end .commentlist */
 /******************************************************************

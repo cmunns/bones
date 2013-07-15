@@ -597,19 +597,11 @@ COMMENT STYLES
 
 	/* comment reply link */
 	.comment-reply-link {
-		text-decoration: none;
-		float: right;
-		background: #4598bb;
-		padding: 3px 5px;
-		color: #fff;
-		opacity: 0.65;
-		margin-bottom: 10px;
-		font-weight: 700;
-		font-size: 0.9em;
+		@extend .button;
 
 		&:hover,
 		&:focus {
-			opacity: 1;
+			@extend .button:hover;
 		}
 
 	} /* end .commentlist .comment-reply-link */
